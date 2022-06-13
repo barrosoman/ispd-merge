@@ -113,7 +113,7 @@ public class GerenciarEscalonadorCloud extends javax.swing.JFrame {
         jMenuItemCut1 = new javax.swing.JMenuItem();
         jMenuItemCopy1 = new javax.swing.JMenuItem();
         jMenuItemPaste1 = new javax.swing.JMenuItem();
-        jFileChooser1 = new javax.swing.JFileChooser();
+        jFileChooser1 = new JFileChooser();
         jToolBar1 = new javax.swing.JToolBar();
         jButtonNovo = new javax.swing.JButton();
         jButtonSalvar = new javax.swing.JButton();
@@ -602,7 +602,7 @@ public class GerenciarEscalonadorCloud extends javax.swing.JFrame {
     private javax.swing.JButton jButtonCompilar;
     private javax.swing.JButton jButtonNovo;
     private javax.swing.JButton jButtonSalvar;
-    private javax.swing.JFileChooser jFileChooser1;
+    private JFileChooser jFileChooser1;
     private javax.swing.JLabel jLabelCaretPos;
     private javax.swing.JList jListEscalonadores;
     private javax.swing.JMenu jMenuArquivo;

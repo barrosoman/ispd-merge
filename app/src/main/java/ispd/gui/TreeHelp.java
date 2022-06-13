@@ -27,7 +27,7 @@
  * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- */ 
+ */
 
 package ispd.gui;
 
@@ -62,13 +62,13 @@ public class TreeHelp extends JFrame implements TreeSelectionListener {
     //"Angled" (the default), "Horizontal", and "None".
     private static boolean playWithLineStyle = false;
     private static String lineStyle = "Horizontal";
-    
+
     //Optionally set the look and feel.
     private static boolean useSystemLookAndFeel = false;
-    
+
     public TreeHelp() {
         setTitle("Help");
-	setMinimumSize(new java.awt.Dimension(700, 400));
+	setMinimumSize(new Dimension(700, 400));
 	Image imagem = Toolkit.getDefaultToolkit().getImage( getClass().getResource("imagens/Logo_iSPD_25.png"));
 	setIconImage(imagem);
 
@@ -91,7 +91,7 @@ public class TreeHelp extends JFrame implements TreeSelectionListener {
             tree.putClientProperty("JTree.lineStyle", lineStyle);
         }
 
-        //Create the scroll pane and add the tree to it. 
+        //Create the scroll pane and add the tree to it.
         JScrollPane treeView = new JScrollPane(tree);
 
         //Create the HTML viewing pane.
@@ -107,7 +107,7 @@ public class TreeHelp extends JFrame implements TreeSelectionListener {
         Dimension minimumSize = new Dimension(50, 50);
         htmlView.setMinimumSize(minimumSize);
         treeView.setMinimumSize(minimumSize);
-        splitPane.setDividerLocation(200); 
+        splitPane.setDividerLocation(200);
         splitPane.setPreferredSize(new Dimension(700, 400));
 
         //Add the split pane to this panel.
@@ -129,7 +129,7 @@ public class TreeHelp extends JFrame implements TreeSelectionListener {
                 System.out.print(book.bookURL + ":  \n    ");
             }
         } else {
-            displayURL(helpURL); 
+            displayURL(helpURL);
         }
         if (DEBUG) {
             System.out.println(nodeInfo.toString());
@@ -192,11 +192,11 @@ public class TreeHelp extends JFrame implements TreeSelectionListener {
 	//subcategory = new DefaultMutableTreeNode("Begins");
         //category.add(subcategory);
 
-        book = new DefaultMutableTreeNode(new BookInfo("Icons","html/icones.html"));
+        book = new DefaultMutableTreeNode(new BookInfo("Icons", "html/icones.html"));
         category.add(book);
 
     }
-    
+
 	private void getThePage(String location){
 		setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
 		try{

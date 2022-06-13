@@ -341,7 +341,7 @@ public class DesenhoGrade extends AreaDesenho {
     }
 
     @Override
-    public void botaoVerticeActionPerformed(java.awt.event.ActionEvent evt) {
+    public void botaoVerticeActionPerformed(ActionEvent evt) {
         //Não copia conexão de rede
         if (selecionados.isEmpty()) {
             JOptionPane.showMessageDialog(null, palavras.getString("No icon selected."), palavras.getString("WARNING"), JOptionPane.WARNING_MESSAGE);
@@ -360,7 +360,7 @@ public class DesenhoGrade extends AreaDesenho {
     }
 
     @Override
-    public void botaoPainelActionPerformed(java.awt.event.ActionEvent evt) {
+    public void botaoPainelActionPerformed(ActionEvent evt) {
         if (iconeCopiado != null) {
             ItemGrade copy = ((ItemGrade) iconeCopiado).criarCopia(getPosicaoMouseX(), getPosicaoMouseY(), numIcones, numVertices);
             vertices.add((Vertice) copy);
@@ -375,7 +375,7 @@ public class DesenhoGrade extends AreaDesenho {
     }
 
     @Override
-    public void botaoArestaActionPerformed(java.awt.event.ActionEvent evt) {
+    public void botaoArestaActionPerformed(ActionEvent evt) {
         if (!selecionados.isEmpty() && selecionados.size() == 1) {
             Link link = (Link) selecionados.iterator().next();
             selecionados.remove(link);
@@ -827,7 +827,7 @@ public class DesenhoGrade extends AreaDesenho {
     }
 
     @Override
-    public void showActionIcon(MouseEvent me, ispd.gui.iconico.Icone icon) {
+    public void showActionIcon(MouseEvent me, Icone icon) {
         this.janelaPrincipal.modificar();
         if (icon instanceof Machine || icon instanceof Cluster) {
             this.janelaPrincipal.getjPanelConfiguracao().setIcone((ItemGrade) icon, usuarios, tipoModelo);

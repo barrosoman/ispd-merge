@@ -446,7 +446,7 @@ public abstract class AreaDesenho extends JPanel implements MouseListener, Mouse
         setMetric(true);
         isMetric.addActionListener(new java.awt.event.ActionListener() {
             @Override
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+            public void actionPerformed(ActionEvent evt) {
                 setMetric(!isMetric());
                 if (isMetric()) {
                     //Turn it to metric.
@@ -475,7 +475,7 @@ public abstract class AreaDesenho extends JPanel implements MouseListener, Mouse
         jMenuVertice0 = new JMenuItem();
         jMenuVertice0.addActionListener(new java.awt.event.ActionListener() {
             @Override
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+            public void actionPerformed(ActionEvent evt) {
                 botaoExclusiveVerticeActionPerformed(evt);
             }
         });
@@ -486,7 +486,7 @@ public abstract class AreaDesenho extends JPanel implements MouseListener, Mouse
         jMenuVertice1 = new JMenuItem("Copy");
         jMenuVertice1.addActionListener(new java.awt.event.ActionListener() {
             @Override
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+            public void actionPerformed(ActionEvent evt) {
                 botaoVerticeActionPerformed(evt);
             }
         });
@@ -495,7 +495,7 @@ public abstract class AreaDesenho extends JPanel implements MouseListener, Mouse
         jMenuAresta1 = new JMenuItem("Turn Over");
         jMenuAresta1.addActionListener(new java.awt.event.ActionListener() {
             @Override
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+            public void actionPerformed(ActionEvent evt) {
                 botaoArestaActionPerformed(evt);
             }
         });
@@ -507,7 +507,7 @@ public abstract class AreaDesenho extends JPanel implements MouseListener, Mouse
         jMenuIcone1V = new JMenuItem("Remove");
         jMenuIcone1V.addActionListener(new java.awt.event.ActionListener() {
             @Override
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+            public void actionPerformed(ActionEvent evt) {
                 botaoIconeActionPerformed(evt);
             }
         });
@@ -516,7 +516,7 @@ public abstract class AreaDesenho extends JPanel implements MouseListener, Mouse
         jMenuIcone1A = new JMenuItem("Remove");
         jMenuIcone1A.addActionListener(new java.awt.event.ActionListener() {
             @Override
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+            public void actionPerformed(ActionEvent evt) {
                 botaoIconeActionPerformed(evt);
             }
         });
@@ -529,7 +529,7 @@ public abstract class AreaDesenho extends JPanel implements MouseListener, Mouse
         jMenuPainel1.setEnabled(false);
         jMenuPainel1.addActionListener(new java.awt.event.ActionListener() {
             @Override
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+            public void actionPerformed(ActionEvent evt) {
                 botaoPainelActionPerformed(evt);
             }
         });

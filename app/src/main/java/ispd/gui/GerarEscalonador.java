@@ -255,7 +255,7 @@ public class GerarEscalonador extends javax.swing.JDialog {
         jButtonCancelar = new javax.swing.JButton();
         jScrollPanePrincipal = new javax.swing.JScrollPane();
 
-        jPanelPasso1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), palavras.getString("Enter the name of the scheduler"), javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Comic Sans MS", 1, 12))); // NOI18N
+        jPanelPasso1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)), palavras.getString("Enter the name of the scheduler"), javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Comic Sans MS", 1, 12))); // NOI18N
 
         jLabelP1NomeEsc.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         jLabelP1NomeEsc.setText(palavras.getString("Scheduler name")); // NOI18N
@@ -273,9 +273,9 @@ public class GerarEscalonador extends javax.swing.JDialog {
         jTextFieldP1LocalArq.setEditable(false);
         jTextFieldP1LocalArq.setText(this.caminho + "NewScheduler.java");
 
-        jSeparatorP1.setForeground(new java.awt.Color(0, 0, 0));
+        jSeparatorP1.setForeground(new Color(0, 0, 0));
 
-        jLabelP1Informacao.setForeground(new java.awt.Color(204, 0, 0));
+        jLabelP1Informacao.setForeground(new Color(204, 0, 0));
 
         javax.swing.GroupLayout jPanelPasso1Layout = new javax.swing.GroupLayout(jPanelPasso1);
         jPanelPasso1.setLayout(jPanelPasso1Layout);
@@ -315,7 +315,7 @@ public class GerarEscalonador extends javax.swing.JDialog {
                 .addContainerGap(56, Short.MAX_VALUE))
         );
 
-        jPanelPasso2.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), palavras.getString("Enter the characteristics"), javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Comic Sans MS", 1, 12))); // NOI18N
+        jPanelPasso2.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)), palavras.getString("Enter the characteristics"), javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Comic Sans MS", 1, 12))); // NOI18N
 
         jLabelP2Informacao.setText(palavras.getString("Search for information:")); // NOI18N
 
@@ -461,7 +461,7 @@ public class GerarEscalonador extends javax.swing.JDialog {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanelPasso3.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), palavras.getString("Generator type"), javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Comic Sans MS", 1, 12))); // NOI18N
+        jPanelPasso3.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)), palavras.getString("Generator type"), javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Comic Sans MS", 1, 12))); // NOI18N
 
         jOpSimples.setSelected(true);
         jOpSimples.setText(palavras.getString("Simple")); // NOI18N
@@ -518,7 +518,7 @@ public class GerarEscalonador extends javax.swing.JDialog {
                 .addContainerGap(45, Short.MAX_VALUE))
         );
 
-        jPanelPasso4.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), palavras.getString("Advanced") + " - " + palavras.getString("Tasks distribution order"), javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Comic Sans MS", 1, 12))); // NOI18N
+        jPanelPasso4.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)), palavras.getString("Advanced") + " - " + palavras.getString("Tasks distribution order"), javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Comic Sans MS", 1, 12))); // NOI18N
         jPanelPasso4.setPreferredSize(new java.awt.Dimension(600, 350));
 
         jLabelP4Formula.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
@@ -830,7 +830,7 @@ public class GerarEscalonador extends javax.swing.JDialog {
                 .addContainerGap(36, Short.MAX_VALUE))
         );
 
-        jPanelPasso5.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), palavras.getString("Advanced") + " - " + palavras.getString("Resource aloccation order"), javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Comic Sans MS", 1, 12))); // NOI18N
+        jPanelPasso5.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)), palavras.getString("Advanced") + " - " + palavras.getString("Resource aloccation order"), javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Comic Sans MS", 1, 12))); // NOI18N
         jPanelPasso5.setPreferredSize(new java.awt.Dimension(600, 350));
 
         jLabelP5Formula.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
@@ -1146,9 +1146,9 @@ public class GerarEscalonador extends javax.swing.JDialog {
 
         jPanelPasso5.getAccessibleContext().setAccessibleName("Ordem de alocação de recursos");
 
-        jPanelPassoSimples.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), palavras.getString("Simple") + " - " + palavras.getString("Scheduling options"), javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Comic Sans MS", 1, 12))); // NOI18N
+        jPanelPassoSimples.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)), palavras.getString("Simple") + " - " + palavras.getString("Scheduling options"), javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Comic Sans MS", 1, 12))); // NOI18N
 
-        jPanel7.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true), palavras.getString("Resource Scheduler"))); // NOI18N
+        jPanel7.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.LineBorder(new Color(0, 0, 0), 1, true), palavras.getString("Resource Scheduler"))); // NOI18N
 
         jListRecurso.setBorder(javax.swing.BorderFactory.createTitledBorder(palavras.getString("Select the policy used:"))); // NOI18N
         jListRecurso.setModel(this.simplesRecurso());
@@ -1173,7 +1173,7 @@ public class GerarEscalonador extends javax.swing.JDialog {
                 .addContainerGap(33, Short.MAX_VALUE))
         );
 
-        jPanel8.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true), palavras.getString("Task Scheduler"))); // NOI18N
+        jPanel8.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.LineBorder(new Color(0, 0, 0), 1, true), palavras.getString("Task Scheduler"))); // NOI18N
 
         jListTarefa.setBorder(javax.swing.BorderFactory.createTitledBorder(palavras.getString("Select the policy used:"))); // NOI18N
         jListTarefa.setModel(simplesTarefa());
@@ -1219,9 +1219,9 @@ public class GerarEscalonador extends javax.swing.JDialog {
                 .addContainerGap())
         );
 
-        jPanelPasso6.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), palavras.getString("Restrictions"), javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Comic Sans MS", 1, 12))); // NOI18N
+        jPanelPasso6.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)), palavras.getString("Restrictions"), javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Comic Sans MS", 1, 12))); // NOI18N
 
-        jSeparatorP6.setForeground(new java.awt.Color(0, 0, 0));
+        jSeparatorP6.setForeground(new Color(0, 0, 0));
 
         jRadioButtonP6SemRestricao.setSelected(true);
         jRadioButtonP6SemRestricao.setText(palavras.getString("No restrictions")); // NOI18N
@@ -1301,7 +1301,7 @@ public class GerarEscalonador extends javax.swing.JDialog {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanelPasso7.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), palavras.getString("Finish"), javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Comic Sans MS", 1, 12))); // NOI18N
+        jPanelPasso7.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new Color(0, 0, 0)), palavras.getString("Finish"), javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Comic Sans MS", 1, 12))); // NOI18N
 
         jTextPaneP7Gramatica.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jScrollPane3.setViewportView(jTextPaneP7Gramatica);
@@ -1328,7 +1328,7 @@ public class GerarEscalonador extends javax.swing.JDialog {
         setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("imagens/Logo_iSPD_25.png")));
         setLocation(new java.awt.Point(0, 0));
 
-        jPanelPassos.setBackground(new java.awt.Color(255, 255, 255));
+        jPanelPassos.setBackground(new Color(255, 255, 255));
         jPanelPassos.setBorder(new javax.swing.border.MatteBorder(null));
 
         jLabelPassos.setFont(new java.awt.Font("Comic Sans MS", 1, 12)); // NOI18N

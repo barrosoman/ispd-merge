@@ -8997,31 +8997,31 @@ public class JavaParser implements JavaParserConstants {
   private boolean jj_semLA;
 
   /** Constructor with InputStream. */
-  public JavaParser(java.io.InputStream stream) {
+  public JavaParser(InputStream stream) {
      this(stream, null);
   }
   /** Constructor with InputStream and supplied encoding */
-  public JavaParser(java.io.InputStream stream, String encoding) {
-    try { jj_input_stream = new JavaCharStream(stream, encoding, 1, 1); } catch(java.io.UnsupportedEncodingException e) { throw new RuntimeException(e); }
+  public JavaParser(InputStream stream, String encoding) {
+    try { jj_input_stream = new JavaCharStream(stream, encoding, 1, 1); } catch(UnsupportedEncodingException e) { throw new RuntimeException(e); }
     token_source = new JavaParserTokenManager(jj_input_stream);
     token = new Token();
     jj_ntk = -1;
   }
 
   /** Reinitialise. */
-  public void ReInit(java.io.InputStream stream) {
+  public void ReInit(InputStream stream) {
      ReInit(stream, null);
   }
   /** Reinitialise. */
-  public void ReInit(java.io.InputStream stream, String encoding) {
-    try { jj_input_stream.ReInit(stream, encoding, 1, 1); } catch(java.io.UnsupportedEncodingException e) { throw new RuntimeException(e); }
+  public void ReInit(InputStream stream, String encoding) {
+    try { jj_input_stream.ReInit(stream, encoding, 1, 1); } catch(UnsupportedEncodingException e) { throw new RuntimeException(e); }
     token_source.ReInit(jj_input_stream);
     token = new Token();
     jj_ntk = -1;
   }
 
   /** Constructor. */
-  public JavaParser(java.io.Reader stream) {
+  public JavaParser(Reader stream) {
     jj_input_stream = new JavaCharStream(stream, 1, 1);
     token_source = new JavaParserTokenManager(jj_input_stream);
     token = new Token();
@@ -9029,7 +9029,7 @@ public class JavaParser implements JavaParserConstants {
   }
 
   /** Reinitialise. */
-  public void ReInit(java.io.Reader stream) {
+  public void ReInit(Reader stream) {
     jj_input_stream.ReInit(stream, 1, 1);
     token_source.ReInit(jj_input_stream);
     token = new Token();
@@ -9062,7 +9062,7 @@ public class JavaParser implements JavaParserConstants {
     throw generateParseException();
   }
 
-  static private final class LookaheadSuccess extends java.lang.Error { }
+  static private final class LookaheadSuccess extends Error { }
   final private LookaheadSuccess jj_ls = new LookaheadSuccess();
   private boolean jj_scan_token(int kind) {
     if (jj_scanpos == jj_lastpos) {

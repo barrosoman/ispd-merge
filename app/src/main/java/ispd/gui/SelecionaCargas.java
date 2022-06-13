@@ -175,7 +175,7 @@ public class SelecionaCargas extends javax.swing.JDialog {
         jScrollPane2 = new javax.swing.JScrollPane();
         jTextNotifTrace = new javax.swing.JTextArea();
         jButtonPrev = new javax.swing.JButton();
-        jOpenTrace = new javax.swing.JFileChooser();
+        jOpenTrace = new JFileChooser();
         jPanelSelecionaTrace = new javax.swing.JPanel();
         jLabel20 = new javax.swing.JLabel();
         jLabel21 = new javax.swing.JLabel();
@@ -184,7 +184,7 @@ public class SelecionaCargas extends javax.swing.JDialog {
         jButton3 = new javax.swing.JButton();
         jButtonOpenWMSX = new javax.swing.JButton();
         jTextFieldCaminhoWMS = new javax.swing.JTextField();
-        jFileExternalTrace = new javax.swing.JFileChooser();
+        jFileExternalTrace = new JFileChooser();
         jPanelModo = new javax.swing.JPanel();
         jRadioButtonTraces = new javax.swing.JRadioButton();
         jRadioButtonForNode = new javax.swing.JRadioButton();
@@ -1058,7 +1058,7 @@ private void jTextFieldCaminhoTraceActionPerformed(java.awt.event.ActionEvent ev
     private javax.swing.JButton jButtonPrev;
     private javax.swing.JComboBox jComboBoxEscalonadores;
     private javax.swing.JComboBox jComboBoxUsers;
-    private javax.swing.JFileChooser jFileExternalTrace;
+    private JFileChooser jFileExternalTrace;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -1082,7 +1082,7 @@ private void jTextFieldCaminhoTraceActionPerformed(java.awt.event.ActionEvent ev
     private javax.swing.JLabel jLabel9;
     private javax.swing.JLabel jLabelNumberOfTasks;
     private javax.swing.JLabel jLabelNumberOfTasks1;
-    private javax.swing.JFileChooser jOpenTrace;
+    private JFileChooser jOpenTrace;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanelConvertTrace;
     private javax.swing.JPanel jPanelForNode;

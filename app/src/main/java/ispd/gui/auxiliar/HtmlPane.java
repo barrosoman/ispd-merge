@@ -76,7 +76,7 @@ public class HtmlPane extends JEditorPane implements HyperlinkListener {
      * @param pai janela que fez a chamada
      * @param titulo Titulo da janela que será exibida
      * @param page pagina html que será exibida
-     * @throws java.io.IOException para URL nulo ou inválido
+     * @throws IOException para URL nulo ou inválido
      */
     public static void newHTMLDialog(Window pai, String titulo, URL page) throws IOException {
         JDialog frame = new JDialog(pai, titulo, ModalityType.APPLICATION_MODAL);

@@ -2981,7 +2981,7 @@ import javax.swing.JOptionPane;
     throw generateParseException();
   }
 
-  static private final class LookaheadSuccess extends java.lang.Error { }
+  static private final class LookaheadSuccess extends Error { }
   static final private LookaheadSuccess jj_ls = new LookaheadSuccess();
   static private boolean jj_scan_token(int kind) {
     if (jj_scanpos == jj_lastpos) {
@@ -3031,7 +3031,7 @@ import javax.swing.JOptionPane;
       return (jj_ntk = jj_nt.kind);
   }
 
-  static private java.util.List<int[]> jj_expentries = new java.util.ArrayList<int[]>();
+  static private List<int[]> jj_expentries = new ArrayList<int[]>();
   static private int[] jj_expentry;
   static private int jj_kind = -1;
   static private int[] jj_lasttokens = new int[100];
